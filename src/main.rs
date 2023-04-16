@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2023 Carlos Pizarro (Apoapsis SpA) <kr105@kr105.com>
+// For full license details, see the LICENSE file in the repository root.
+
 use bytes::{BufMut, BytesMut};
 use clap::{value_parser, Arg, ArgGroup, Command};
 use socket2::{Domain, Protocol, Socket, Type};
